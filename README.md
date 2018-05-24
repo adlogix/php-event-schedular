@@ -39,7 +39,7 @@ use Adlogix\EventScheduler\Scheduler;
 use Adlogix\EventScheduler\TemporalExpression;
 
 $scheduler = new Scheduler();
-$scheduledEvent = $scheduler->schedule('event_name', new TemporalExpression\DayInMonth(15));
+$scheduledEvent = $scheduler->schedule(new BasicEvent('event_name'), new TemporalExpression\DayInMonth(15));
 ```
 
 If you want to cancel this event, you can provide the returned instance of `Adlogix\EventScheduler\SchedulableEvent` to the `Adlogix\EventScheduler\Scheduler::cancel` method.
@@ -56,7 +56,7 @@ check if an event occur or not at a given date represented by an instance of `Da
 ```php
 $temporalExpression = new TemporalExpression();
 
-$isOccuring = $temporalExpression->isOccuring('event', $date);
+$isOccuring = $temporalExpression->isOccuring(new BasicEvent('event_name'), $date);
 ```
 
 #### Default temporal expressions
