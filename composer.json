@@ -1,0 +1,21 @@
+{
+    "name": "adlogix/php-event-scheduler",
+    "description": "Solution in php to schedule recurring events based on Martin Fowlers paper",
+    "homepage": "https://github.com/adlogix/php-event-scheduler",
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Adlogix\\EventScheduler\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Adlogix\\EventSchedulerTest\\": "tests/"
+        }
+    }
+}
