@@ -4,7 +4,7 @@ Adlogix Event Scheduler
 The Adlogix Event Scheduler library provides a way to manage recurring events using Martin Fowler's [Recurring Event pattern](http://martinfowler.com/apsupp/recurring.pdf). 
 The base of the code and documentation was initially forked from [RiskioFr's solution](https://github.com/RiskioFr/EventScheduler)  and completely refactored to be more lightweight and with less dependencies!
 
-[![Build Status](https://img.shields.io/travis/Adlogix/EventScheduler.svg?style=flat)](http://travis-ci.org/adlogix/php-event-schedular)
+[![Build Status](https://travis-ci.org/adlogix/php-event-schedular.svg)](https://travis-ci.org/adlogix/php-event-schedular)
 
 Requirements
 ------------
