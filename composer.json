@@ -2,6 +2,14 @@
     "name": "adlogix/php-event-scheduler",
     "description": "Solution in php to schedule recurring events based on Martin Fowlers paper",
     "homepage": "https://github.com/adlogix/php-event-scheduler",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Toni Van de Voorde",
+            "email": "toni.vdv@gmail.com",
+            "homepage": "http://www.devexp.eu"
+        }
+    ],
     "require": {
         "php": "^7.1"
     },
