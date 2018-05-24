@@ -5,6 +5,11 @@ The Adlogix Event Scheduler library provides a way to manage recurring events us
 The base of the code and documentation was initially forked from [RiskioFr's solution](https://github.com/RiskioFr/EventScheduler)  and completely refactored to be more lightweight and with less dependencies!
 
 [![Build Status](https://travis-ci.org/adlogix/php-event-schedular.svg)](https://travis-ci.org/adlogix/php-event-schedular)
+[![Latest Stable Version](https://poser.pugx.org/adlogix/php-event-scheduler/v/stable)](https://packagist.org/packages/adlogix/php-event-scheduler)
+[![Total Downloads](https://poser.pugx.org/adlogix/php-event-scheduler/downloads)](https://packagist.org/packages/adlogix/php-event-scheduler)
+[![Latest Unstable Version](https://poser.pugx.org/adlogix/php-event-scheduler/v/unstable)](https://packagist.org/packages/adlogix/php-event-scheduler)
+[![License](https://poser.pugx.org/adlogix/php-event-scheduler/license)](https://packagist.org/packages/adlogix/php-event-scheduler)
+
 
 Requirements
 ------------
